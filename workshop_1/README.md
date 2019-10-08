@@ -1,6 +1,10 @@
 <p align="center"><img src="https://raw.githubusercontent.com/HackToHelpUTD/web_dev_series_fall19/master/.github/WITBxH2H_dark.png" height="200"><p>
 <h1 align="center">Web Development Series Workshop: Part I</h1>
 
+## Final Result
+
+<p align="center"><img src="https://raw.githubusercontent.com/HackToHelpUTD/web_dev_series_fall19/master/.github/WITBxH2H_dark.png" height="200"><p>
+
 ## Content Covered
 ### Basic Folder Structure
 ```
