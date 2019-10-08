@@ -3,7 +3,7 @@
 
 ## Final Result
 
-<p align="center"><img src="https://raw.githubusercontent.com/HackToHelpUTD/web_dev_series_fall19/master/.github/WITBxH2H_dark.png" height="200"><p>
+<p align="center"><img src="https://raw.githubusercontent.com/HackToHelpUTD/web-dev-series-fall19/master/workshop_1/.github/final.png" height="250"><p>
 
 ## Content Covered
 ### Basic Folder Structure
