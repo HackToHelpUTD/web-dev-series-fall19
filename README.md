@@ -1,0 +1,2 @@
+# Web Development Series Workshop
+This repository serves as the central source of code and references presented during the [WITB](https://witbutd.weebly.com/) x [H2H](http://hacktohelp.co) Web Development Series Workshop during the Fall 2019 semester. The workshop content can be accessed by clicking on the folders above specified for each workshop.
