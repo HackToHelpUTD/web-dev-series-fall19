@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background: lightblue;
+}
+
+.container {
+  padding: 25px;
+}
+
+.graphics img {
+  display: block;
+  margin: 30px auto;
+}
+
+.dm-logo {
+  width: 150px;
+}
+
+.uc-man {
+  height: 180px;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+span.christmas-text span:nth-child(odd) {
+  color: darkred;
+}
+
+span.christmas-text span:nth-child(even) {
+  color: darkgreen;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .dm-logo {
+    width: 200px;
+  }
+  
+  .uc-man {
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}

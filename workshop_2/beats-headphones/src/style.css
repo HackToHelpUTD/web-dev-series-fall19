@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans:300|Raleway:100,200');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background: #e01f3d;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.container > div {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.white {
+  background: #fff;
+}
+
+.red {
+  background: #e01f3d;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.headphones {
+  flex: 2;
+}
+
+.content {
+  flex: 2;
+}
+
+.button-div button {
+  height: 45px;
+  width: 140px;
+  background: #fff;
+  border-radius: 5%;
+  border: none;
+  color: #e01f3d;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.button-div button:hover,
+.button-div button:active,
+.button-div button:focus {
+  opacity: 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+h6 {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 45px;
+}
+
+.headphones img {
+  width: 300px;
+}
+
+.headphones {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+@media (min-width: 992px){
+  .container > div {
+    padding: 30px 350px;
+    text-align: center;
+  }
+
+  div.headphones {
+    text-align: right;
+  }
+
+  div.content {
+    text-align: left;
+  }
+}
