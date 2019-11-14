@@ -4,9 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <script src="src/js/main.js"></script>
+  <title>What's the weather? | Hack to Help Frontend Challenge</title>
 </head>
 <body>
-  
+  <div class="container">
+      <div class="weather-body">
+        <div class="weather-heading">
+          <h1>What's the weather like?</h1>
+          <p class="lead">Let's find out!</p>
+        </div>
+        <div class="loading" id="loader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="weather-block hide" id="weather-block">
+          <div class="image">
+            <img id="weather-img">
+          </div>
+          <div class="degree">
+            <span id="temp"></span>
+          </div>
+          <div>
+            <span id="name"></span>,
+            <span id="country"></span>
+          </div>
+        </div>
+      </div>
+  </div>
 </body>
 </html>
