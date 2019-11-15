@@ -42,3 +42,7 @@ The code and assets follow the following file structure
 
 ### Questions? Concerns?
 Email us at [hacktohelputd@gmail.com](mailto:hacktohelputd@gmail.com).
+
+```
+"http://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&" + "appid=115d8a247511801926c11f972fb5d5b0"
+```
